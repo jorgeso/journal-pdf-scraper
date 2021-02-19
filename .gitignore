@@ -103,6 +103,6 @@ dist
 # TernJS port file
 .tern-port
 
-pdf_files
+pdf_files/
 
-data
+data/
