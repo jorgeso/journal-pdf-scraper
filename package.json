@@ -1,0 +1,26 @@
+{
+  "name": "pdf-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scraper": "ts-node index.ts",
+    "count-hosts": "ts-node count-hosts.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jsdom": "12.2.3",
+    "follow-redirects": "1.7.0",
+    "jsdom": "14.0.0",
+    "lodash": "4.17.11",
+    "moment": "2.24.0",
+    "throttled-queue": "1.0.5",
+    "ts-node": "8.0.3",
+    "typescript": "3.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "11.13.4"
+  }
+}
